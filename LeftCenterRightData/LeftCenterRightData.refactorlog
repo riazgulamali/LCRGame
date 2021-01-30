@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="7dede785-b9d6-4115-9769-8cf66b4e017e" ChangeDateTime="01/30/2021 22:27:29">
+    <Property Name="ElementName" Value="[dbo].[UserInfo].[Firstname]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UserInfo]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FirstName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9df84aae-d5c5-4cca-aef5-df0a212473d9" ChangeDateTime="01/30/2021 22:34:12">
+    <Property Name="ElementName" Value="[dbo].[GameTable].[GameId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[GameTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Userid" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="523f76d8-a958-4c88-b488-d59b66cd2f37" ChangeDateTime="01/30/2021 22:34:43">
+    <Property Name="ElementName" Value="[dbo].[GameTable].[Game Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[GameTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="GameId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7361c12a-236f-4bf0-82a0-6021f8b6ccf5" ChangeDateTime="01/30/2021 22:38:05">
+    <Property Name="ElementName" Value="[dbo].[GameTable].[chipValue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[GameTable]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="chipValue1" />
+  </Operation>
+</Operations>
