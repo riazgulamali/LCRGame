@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftCenterRightGameApi2", "LeftCenterRightGameApi2\LeftCenterRightGameApi2.csproj", "{4597EF35-49C3-48DF-9059-42037FBBCB97}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LeftCenterRightData", "LeftCenterRightData\LeftCenterRightData.sqlproj", "{E894241D-BA27-44CC-AC6D-1E01C2F04171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,12 @@ Global
 		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
