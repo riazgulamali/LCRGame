@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftCenterRightGameApi2", "LeftCenterRightGameApi2\LeftCenterRightGameApi2.csproj", "{4597EF35-49C3-48DF-9059-42037FBBCB97}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4597EF35-49C3-48DF-9059-42037FBBCB97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
