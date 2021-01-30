@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftCenterRightGameApi2", "
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "LeftCenterRightData", "LeftCenterRightData\LeftCenterRightData.sqlproj", "{E894241D-BA27-44CC-AC6D-1E01C2F04171}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeftCenterRightDesktopUI", "LeftCenterRightDesktopUI\LeftCenterRightDesktopUI.csproj", "{5129D54A-08C0-42D2-96E7-75251727608F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E894241D-BA27-44CC-AC6D-1E01C2F04171}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5129D54A-08C0-42D2-96E7-75251727608F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5129D54A-08C0-42D2-96E7-75251727608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5129D54A-08C0-42D2-96E7-75251727608F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5129D54A-08C0-42D2-96E7-75251727608F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
