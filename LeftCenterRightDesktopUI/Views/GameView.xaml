@@ -5,8 +5,8 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:LeftCenterRightDesktopUI.Views"
              mc:Ignorable="d" Background="White" 
-             d:DesignHeight="425" d:DesignWidth="800">
-    <Grid>
+             d:DesignHeight="625" d:DesignWidth="800">
+    <Grid Margin="0,0,0,-39">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
@@ -14,38 +14,43 @@
             <ColumnDefinition Width="auto" />
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="170" />
+            <RowDefinition Height="auto" MinHeight="270" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="100" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="*" />
+            <RowDefinition Height="0*" />
         </Grid.RowDefinitions>
-        <!--<StackPanel>-->
-        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" FontSize="20">
-            Player 1
+        <!--Player1-->
+        <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" FontSize="20" Margin="36,0,34,0" Width="197" RenderTransformOrigin="0.5,0.5" Height="34" VerticalAlignment="Top">
+             Player 1
         </TextBlock>
-        <Button Grid.Row="1" x:Name="Player1"  Grid.Column="0" Height="25" Width="100" Margin="0 50 0 200">Roll Dice</Button>
-        <!--</StackPanel>-->
-        <!--<StackPanel>-->
-        <TextBlock Grid.Row="2" Grid.Column="1" HorizontalAlignment="Center" FontSize="20">
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="Player1Text" Margin="36,88,32,91"/>
+        <Button Grid.Row="2" Grid.Column="1" x:Name="Player1" Margin="83,40,84,210">Roll Dice</Button>
+        <!--Player2-->
+        <TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" FontSize="20" Margin="69,0,44,0" Width="154" Height="33" VerticalAlignment="Top">
             Player 2
         </TextBlock>
-        <Button Grid.Row="2" Grid.Column="1" x:Name="Player2" Height="25" Width="100" Margin="0 30 0 200">Roll Dice</Button>
-        <!--</StackPanel>-->
-        <!--<StackPanel>-->
-        <TextBox Grid.Row="1" Grid.Column="1" Margin="40,0,34,52" Height="187" Background="Beige" VerticalAlignment="Bottom">This my text box</TextBox>
+        <TextBox Grid.Row="1" x:Name="Player2Text" Grid.Column="0" Margin="33,88,35,87"/>
+        <Button Grid.Row="1" x:Name="Player2"  Grid.Column="0" Margin="84,50,83,200">Roll Dice</Button>
 
-        <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" FontSize="20">
+        <TextBox Grid.Row="1" Grid.Column="2"></TextBox>
+        <!--Player3-->
+        <TextBlock Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center" FontSize="20" Margin="83,0,58,137" Width="126">
             Player 3
         </TextBlock>
-        <Button Grid.Row="1" Grid.Column="2" x:Name="Player3"  Height="25" Width="100" Margin="0 50 0 200">Roll Dice</Button>
-        <!--</StackPanel>-->
-        <!--<StackPanel>-->
-        <TextBlock Grid.Row="0" Grid.Column="1"  HorizontalAlignment="Center" FontSize="20">
+        <TextBox Grid.Row="0" Grid.Column="1" Height="100" x:Name="Player3Text" Margin="33,70,32,0"/>
+        <Button Margin="83,33,84,115" Grid.Column="1" x:Name="Player3">Roll Dice</Button>
+
+        <TextBox Grid.Row="1" Grid.Column="1" Background="Beige"  x:Name="CenterText" Margin="36,31,32,49"/>
+
+        <!--Player4-->
+
+        <TextBlock Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" FontSize="20" Margin="34,0,33,237" Width="199">
             Player 4
         </TextBlock>
-        <Button Margin="73,50,74,25" Width="100" Height="25" Grid.Column="1">Roll Dice</Button>
-        <!--<Button Grid.Row="0" Grid.Column="1" x:Name="Player4"  Height="25" Width="100" Margin="0 50 0 200">Roll Dice</Button>-->
-        <!--</StackPanel>-->
+        <TextBox Grid.Row="1" Grid.Column="2" x:Name="Player4Text" Margin="34,102,33,73"/>
+        <Button Grid.Row="1" Grid.Column="2" x:Name="Player4" Margin="83,50,83,200">Roll Dice</Button>
+
+
     </Grid>
 </UserControl>
